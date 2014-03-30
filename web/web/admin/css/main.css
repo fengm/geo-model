@@ -1,0 +1,23 @@
+body {color:#000;background:#979797; text-align: center; font: 12px Arial, Helvetica, sans-serif; margin-top: 0px;} 
+#header ,#centers ,#footer{ width:1024px; margin:0 auto; clear:both;}
+#header{ height:68px; border-bottom:3px solid #333333; background: #ffffff; background-image:url('../pic/title.png');}
+#centers{ padding:0 0; border:0px solid #cccccc; font: 13px; background: #ffffff;}
+#centers .c_left{ float:left; width:20%; background:#ffffff; margin-right:1px; }
+#centers .c_right{ background:#ffffff; overflow:auto; min-height: 300px;}
+#footer{ border:0px solid #cccccc; background:#ffffff; height: 68px; line-height: 30px; font-size: 12px;}
+
+.model_item{background: #FFFFFF; margin: 3px 5px; padding: 3px; text-align: left; clear: both; border: 1px solid #74B2E2; overflow: auto;}
+.model_title{ float: left; border-bottom: 1px solid #74B2E2; width: 100%; background: #ffffff; line-height: 30px; margin: 0px; font-size: 15px; font-weight: bold; clear: both;}
+.model_input{ float: left; border: 1px solid #ffffff; background: #ffffff; width: 100%; margin: 0px; font-size: 12px; line-height: 30px}
+.param_title{ float: left; margin-right: 5px; padding-left: 5px; font-weight: bold; width: 80px; background: #E4F1FB}
+.param_value{ float: left; margin-right: 5px; padding: 5px auto 20px auto;}
+.param_values {padding: 5px auto 20px auto;}
+
+.status_text{border: 0px; margin: 0px;}
+.status_tag{border: 0px; margin: 3px; background: #E4F1FB;}
+.status_tag_text{font-size: 12px; font-weight: bold; padding: 5px 3px 5px 3px;}
+.status_val{border: 0px; margin: 3px; background: #fafafa; padding: 5px 3px 5px 3px; text-align: center;}
+.status_val_text{font-size: 12px;}
+
+.tip_panel{text-align:left; font-size: 12px;line-height: 30px;margin-left: 10px;}
+.ui-dialog-titlebar { height: .9em; }
